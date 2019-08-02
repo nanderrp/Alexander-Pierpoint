@@ -1,0 +1,108 @@
+.body {
+  background-color: #fff5db;
+  display: grid;
+}
+
+.navigation {
+  margin: 10px;
+  justify-self: end;
+  grid-template-rows: 100%;
+  position: sticky;
+}
+
+.hello {
+  grid-template-columns: 50% 50%;
+  margin-top: 50px;
+  margin-right: 80px;
+}
+
+.hello h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 10vw;
+  padding: 12px;
+  margin-top: 25px;
+  margin-left: 15px;
+  letter-spacing: 3px;
+}
+
+.about {
+  background-image: url('/Images/itme.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 9em;
+  padding: 3em;
+  padding-bottom: 3em;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.about-1 {
+  padding: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 1vh;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 3vw;
+ /* background-color: rgba(255, 228, 153, 0.8);*/
+  color: whitesmoke;
+  text-align: right;
+}
+
+.about-2 {
+  padding: 12px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 3vw;
+ /* background-color: rgba(255, 228, 153, 0.8); */
+  color: whitesmoke;
+  text-align: left;
+}
+
+
+.projects {
+  background-color: #fff5db;
+  margin-top: 5em;
+}
+
+.projects h3 {
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+  font-size: 4em;
+  color: #ab7b00;
+}
+
+.projects .funthings {
+  padding: 3em;
+}
+
+.funthings .card {
+  margin: 20px;
+  
+}
+
+.funthings .card img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+
+
+
+
+/* SLIDE IN ANIMATION */
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 1.5s;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+
