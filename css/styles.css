@@ -1,13 +1,21 @@
 .body {
-  background-color: #fff5db;
+  background-color:#fefdfa;
   display: grid;
 }
 
 .navigation {
+  position: fixed;
+  top: 0;
   margin: 10px;
   justify-self: end;
   grid-template-rows: 100%;
   position: sticky;
+  border: 1px solid lawngreen;
+  z-index: 99;
+}
+
+.navigation .nav-item {
+  color: lawngreen;
 }
 
 .hello {
@@ -30,7 +38,7 @@
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: 9em;
-  padding: 3em;
+  padding: 5em;
   padding-bottom: 3em;
   margin-left: 60px;
   margin-right: 60px;
@@ -41,10 +49,12 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 1vh;
-  font-family: 'Noto Sans HK', sans-serif;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 3vw;
  /* background-color: rgba(255, 228, 153, 0.8);*/
-  color: whitesmoke;
+  color: white;
   text-align: right;
 }
 
@@ -52,24 +62,25 @@
   padding: 12px;
   margin-right: 20px;
   margin-left: 20px;
-  font-family: 'Noto Sans HK', sans-serif;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 3vw;
  /* background-color: rgba(255, 228, 153, 0.8); */
-  color: whitesmoke;
+  color: white;
   text-align: left;
 }
 
 
 .projects {
-  background-color: #fff5db;
-  margin-top: 5em;
+  margin-top: 10em;
 }
 
 .projects h3 {
   font-family: 'DM Serif Display', serif;
   text-align: center;
   font-size: 4em;
-  color: #ab7b00;
+  color:#AFE313;
 }
 
 .projects .funthings {
@@ -87,6 +98,83 @@
   margin-top: 10px;
 }
 
+.contact {
+  text-align: center;
+}
+
+.contact h4 {
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+  font-size: 2em;
+  color: #AFE313;
+}
+
+.contact p {
+  color: #AFE313;
+  text-align: center;
+}
+
+.contact .booking-form {
+ text-align: center;
+ display: inline-block;
+ 
+}
+
+.booking-form #name {
+  width: 400px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid  #AFE313;
+  background-color: transparent;
+}
+
+.booking-form #email {
+  width: 400px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #AFE313;
+  background-color: transparent;
+}
+
+.booking-form #talk-to-me {
+  text-align: top;
+  height: 150px;
+  width: 400px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid #AFE313;
+  background-color: transparent;
+}
+
+.booking-form #how {
+  height: 150px;
+  width: 400px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid  #AFE313;
+  background-color: transparent;
+}
+
+.booking-form button {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid  #AFE313;
+  background-color: transparent;
+  color: gray;
+}
+
+.g-recaptcha {
+  display: inline-block;
+  margin-top: 20px;
+
+}
 
 
 

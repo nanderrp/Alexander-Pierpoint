@@ -8,14 +8,23 @@
     <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/qem7thb.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+  <script type="text/javascript">
+   (function(){
+      emailjs.init("user_ZAWMKXuZJCblF5cQ3OYJ3");
+   })();
+  </script>
+  <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script type="text/javascript" src="/scripts/index.js"></script>
     <title>alexanderpierpoint</title>
 </head>
 <body class="body">
   <div class="navigation">
-      <nav class="navbar navbar-expand-lg navbar-light position-sticky">
+      <nav class="navbar navbar-expand-lg navbar-light">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -68,6 +77,7 @@
                     <h5 class="card-title">Becca's Portfolio</h5>
                     <p class="card-text">Becca Pierpoint responsive design portfolio built with React.js</p>
                     <a href="#" class="btn btn-outline-secondary">Check it out</a>
+                    <a href="#" class="btn btn-outline-secondary">github</a>
                   </div>
                 </div>
               <div class="card bg-transparent col-sm">
@@ -76,10 +86,44 @@
                         <h5 class="card-title">Becca's Portfolio</h5>
                         <p class="card-text">Becca Pierpoint responsive design portfolio built with React.js</p>
                         <a href="#" class="btn btn-outline-secondary">Check it out</a>
+                        <a href="#" class="btn btn-outline-secondary">github</a>
                       </div>
                     </div>
                 </div>
           </div>
+
+          <div class="contact" id="contact">
+                <h4>Contact Me.</h4>
+                <p>Currently looking for full time entry level positions.</p>
+
+                <div id="booking-form" class="container-fluid booking-form">
+              
+                    <div id="inputs" class="container-fluid">
+              
+                      <input id="name" type="text"  alt="submit" placeholder="Name" name="foo" /><br>
+                      <input id="email" type="text"  alt="submit" placeholder="Email Adress" /><br>
+                      <textarea id="talk-to-me" type="text"  alt="submit" placeholder="Talk to me"></textarea><br>
+                      </div>
+                      <div id="inputs" class="container-fluid">
+                      <textarea id="how" type="text"  alt="submit" placeholder="How did you find me?"></textarea><br>
+                      <button onclick="sendMail(), success()" id="submit">Submit</button>
+                    </div><br>
+              
+              
+                    <div class="g-recaptcha" data-sitekey="6LeNLqoUAAAAAGOd386OPuSlB8zBSkMdi0UrfTaL"></div>
+              
+              
+                    </div>
+          </div>
+
+          <div class="social">
+            <div class="icons">
+              <a></a>
+            </div>
+
+          </div>
+
+
 
         </div>
 
