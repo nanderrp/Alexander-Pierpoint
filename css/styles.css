@@ -34,7 +34,7 @@
 }
 
 .about {
-  background-image: url('/Images/itme.jpg');
+  background-color: #ddffba;
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: 9em;
@@ -48,13 +48,13 @@
   padding: 12px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 1vh;
+  margin-top: 0.25vh;
   font-family: sofia-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 3vw;
+  font-size: 4vw;
  /* background-color: rgba(255, 228, 153, 0.8);*/
-  color: white;
+  color: #b8b8b8;
   text-align: right;
 }
 
@@ -65,9 +65,9 @@
   font-family: sofia-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 3vw;
+  font-size: 4vw;
  /* background-color: rgba(255, 228, 153, 0.8); */
-  color: white;
+  color: #b8b8b8;
   text-align: left;
 }
 
