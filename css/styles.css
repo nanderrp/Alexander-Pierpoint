@@ -26,7 +26,7 @@
 
 .hello h1 {
   font-family: 'DM Serif Display', serif;
-  font-size: 10vw;
+  font-size: 8em;
   padding: 12px;
   margin-top: 25px;
   margin-left: 15px;
@@ -37,7 +37,7 @@
   background-color: #ddffba;
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-top: 9em;
+  margin-top: 5em;
   padding: 5em;
   padding-bottom: 3em;
   margin-left: 60px;
@@ -52,7 +52,7 @@
   font-family: sofia-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 4vw;
+  font-size: 5em;
  /* background-color: rgba(255, 228, 153, 0.8);*/
   color: #b8b8b8;
   text-align: right;
@@ -65,7 +65,7 @@
   font-family: sofia-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 4vw;
+  font-size: 5em;
  /* background-color: rgba(255, 228, 153, 0.8); */
   color: #b8b8b8;
   text-align: left;
