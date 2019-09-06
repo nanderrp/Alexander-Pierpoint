@@ -108,15 +108,13 @@ $(window).scroll(function(event) {
 // EMAIL SECTION
 
 function sendMail() {
-  // getName
-  // getBusinessName
-  // getEmail
-  // getType
+// getName
+// getBusinessName
+// getEmail
+// getType
  var name = document.getElementById("name").value;
- var business = document.getElementById("business").value;
  var email = document.getElementById("email").value;
- var dropdown = document.getElementById("dropdown").value;
- var how = document.getElementById("how").value;
+  var how = document.getElementById("how").value;
 
 
  var template_params = {

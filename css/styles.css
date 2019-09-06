@@ -14,6 +14,11 @@
   z-index: 99;
 }
 
+.navbar-toggler-icon {
+  width: 50px !important;
+  height: 50px !important;
+}
+
 .navigation .navbar-collapse {
   background-color: #fefdfa;
   
@@ -39,7 +44,8 @@
 }
 
 .about {
-  background-color: #ddffba;
+  border: 2px solid  lawngreen;
+  /*background-color: #ddffba;*/
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: 5em;
@@ -85,7 +91,7 @@
   font-family: 'DM Serif Display', serif;
   text-align: center;
   font-size: 4em;
-  color:#AFE313;
+  color:lawngreen;
 }
 
 .projects .funthings {
@@ -112,11 +118,11 @@
   font-family: 'DM Serif Display', serif;
   text-align: center;
   font-size: 2em;
-  color: #AFE313;
+  color: lawngreen;
 }
 
 .contact p {
-  color: #AFE313;
+  color: lawngreen;
   text-align: center;
 }
 
@@ -131,7 +137,7 @@
   margin-top: 10px;
   padding: 5px;
   border-radius: 15px;
-  border: 1px solid  #AFE313;
+  border: 1px solid  lawngreen;
   background-color: transparent;
 }
 
@@ -140,7 +146,7 @@
   margin-top: 10px;
   padding: 5px;
   border-radius: 15px;
-  border: 1px solid #AFE313;
+  border: 1px solid lawngreen;
   background-color: transparent;
 }
 
@@ -151,7 +157,7 @@
   margin-top: 10px;
   padding: 5px;
   border-radius: 15px;
-  border: 1px solid #AFE313;
+  border: 1px solid lawngreen;
   background-color: transparent;
 }
 
@@ -161,7 +167,7 @@
   margin-top: 10px;
   padding: 5px;
   border-radius: 15px;
-  border: 1px solid  #AFE313;
+  border: 1px solid  lawngreen;
   background-color: transparent;
 }
 
@@ -171,9 +177,10 @@
   margin-bottom: 20px;
   padding: 5px;
   border-radius: 15px;
-  border: 1px solid  #AFE313;
+  border: 1px solid  lawngreen;
   background-color: transparent;
   color: gray;
+  cursor: pointer;
 }
 
 .g-recaptcha {
