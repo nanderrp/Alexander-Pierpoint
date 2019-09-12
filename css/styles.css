@@ -131,12 +131,13 @@ html .body {
 }
 
 .contact .booking-form {
- text-align: center;
- display: inline-block;
- 
+  display: block;
+  margin: 0 auto;
 }
 
-.booking-form #name {
+.booking-form .name {
+  display: block;
+  margin: 0 auto;
   width: 400px;
   margin-top: 10px;
   padding: 5px;
@@ -145,7 +146,9 @@ html .body {
   background-color: transparent;
 }
 
-.booking-form #email {
+.booking-form .email {
+  display: block;
+  margin: 0 auto;
   width: 400px;
   margin-top: 10px;
   padding: 5px;
@@ -154,7 +157,9 @@ html .body {
   background-color: transparent;
 }
 
-.booking-form #talk-to-me {
+.booking-form .talk-to-me {
+  display: block;
+  margin: 0 auto;
   text-align: top;
   height: 150px;
   width: 400px;
@@ -165,18 +170,10 @@ html .body {
   background-color: transparent;
 }
 
-.booking-form #how {
-  height: 150px;
-  width: 400px;
-  margin-top: 10px;
-  padding: 5px;
-  border-radius: 15px;
-  border: 1px solid  lawngreen;
-  background-color: transparent;
-}
 
-.booking-form button {
-  display: inline-block;
+.booking-form .button {
+  display: block;
+margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 20px;
   padding: 5px;

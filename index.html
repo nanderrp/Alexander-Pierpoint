@@ -100,25 +100,24 @@
                 <h4>Contact Me.</h4>
                 <p>Currently looking for full time entry level positions.</p>
 
-                <div id="booking-form" class="container-fluid booking-form">
+                
               
-                    <div id="inputs" class="container-fluid">
+                     <form onsubmit=success() class="booking-form" action="https://formspree.io/apierpoint24@gmail.com" method="POST">
+                      <input name="name" type="text" class="name" placeholder="Name"/>
+                      <input name="reply-to" type="text" class="email" placeholder="Email"/>
+                      <textarea name="" id="" cols="30" class="talk-to-me" rows="10" placeholder="Say Hello!"></textarea>
+                      <button type="submit" class="button">Send</button>
+                      
+                  
               
-                      <input id="name" type="text"  alt="submit" placeholder="Name" name="foo" /><br>
-                      <input id="email" type="text"  alt="submit" placeholder="Email Adress" /><br>
-                      <textarea id="talk-to-me" type="text"  alt="submit" placeholder="Talk to me"></textarea><br>
-                      </div>
-                      <div id="inputs" class="container-fluid">
-                      <textarea id="how" type="text"  alt="submit" placeholder="How did you find me?"></textarea><br>
-                      <button onclick="sendMail(), success()" id="submit">Submit</button>
-                    </div><br>
+                     
               
               
                     <div class="g-recaptcha" data-sitekey="6LeneLUUAAAAAKkRABKLUoEj4AJ95sdk9cx-OGLj"></div>
               
               
-                    </div>
-          </div>
+                    </form>
+       
 
           
 
