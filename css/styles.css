@@ -1,3 +1,5 @@
+/* BODY & NAV */
+
 html .body {
   width: 100%;
 }
@@ -32,6 +34,8 @@ html .body {
   color: lawngreen;
 }
 
+/* HELLO */
+
 .hello {
   grid-template-columns: 50% 50%;
   margin-top: 50px;
@@ -46,46 +50,85 @@ html .body {
   margin-left: 15px;
   letter-spacing: 3px;
 }
+/* ABOUT */
 
 .about {
-  border: 2px solid  lawngreen;
-  /*background-color: #ddffba;*/
+  display: block;
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-top: 5em;
+  margin-top: 6em;
   padding: 5em;
   padding-bottom: 3em;
   margin-left: 60px;
   margin-right: 60px;
 }
 
-.about-1 {
-  padding: 12px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  font-family: sofia-pro, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 4em;
- /* background-color: rgba(255, 228, 153, 0.8);*/
-  color: #b8b8b8;
-  text-align: right;
+.about-img {
+  float: left;
+  position: relative;
+  width: 600px;
+  height: auto;
+  z-index: 3;
+  margin-left: 50px;
 }
 
-.about-2 {
-  padding: 12px;
-  margin-right: 20px;
-  margin-left: 20px;
-  font-family: sofia-pro, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 4em;
- /* background-color: rgba(255, 228, 153, 0.8); */
-  color: #b8b8b8;
-  text-align: left;
+.about-text {
+  position: absolute;
+  border: 2px solid  lawngreen;
+  background-color: transparent;
+  padding: 20px;
+  width: 40%;
+  height: auto;
+  z-index: 4;
+  margin-left: 34vw;
+  margin-top: 6vw;
 }
 
+.about-text p {
+  padding: 10px;
+  background-color: #fefdfa;
+  color: slategrey;
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: 1px;
+  font-size: 170%
+}
+
+@media screen and (max-width: 1050px){
+  .about-text {
+    margin-left: 40vw !important;
+  }
+  .about-text p {
+    font-size: 18pt;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .about{
+    padding: none;
+    margin-bottom: 400px !important;
+  }
+
+  .about-img {
+    width: 100%;
+    float: none !important;
+    display: block !important;
+    margin: auto 0 !important;
+    padding: 0 !important;
+    margin-bottom: 60px !important;
+  }
+  .about-text {
+    width: 600px !important;
+    padding: 5px !important;
+    margin-left: 60px !important;
+  }
+
+  .about-text p {
+    text-align: center;
+    font-size: 25pt;
+  }
+}
+
+/* WORK */
 
 .projects {
   margin-top: 10em;
@@ -113,6 +156,8 @@ html .body {
   height: auto;
   margin-top: 10px;
 }
+
+/* CONTACT */
 
 .contact {
   text-align: center;
@@ -173,7 +218,7 @@ html .body {
 
 .booking-form .button {
   display: block;
-margin: 0 auto;
+  margin: 0 auto;
   margin-top: 10px;
   margin-bottom: 20px;
   padding: 5px;
@@ -184,11 +229,37 @@ margin: 0 auto;
   cursor: pointer;
 }
 
-.g-recaptcha {
-  display: inline-block;
-  margin-top: 20px;
-  margin-bottom: 30px;
+@media screen and (max-width: 800px){
+  .contact h4 {
+    font-size: 4em;
+  }
+
+  .contact p {
+    font-size: 2em;
+  }
+
+  .booking-form .name{
+    width: 600px;
+    padding: 7px;
+  }
+
+  .booking-form .email {
+    width: 600px;
+    padding: 7px;
+  }
+
+  .booking-form .talk-to-me {
+    width: 600px;
+    height: 250px;
+  }
+
+  .booking-form .button {
+    width: 100px;
+    margin-bottom: 70px;
+  }
+
 }
+
 
 
 
