@@ -37,18 +37,21 @@ html .body {
 /* HELLO */
 
 .hello {
-  grid-template-columns: 50% 50%;
+  width: 50%;
+  margin: auto;
   margin-top: 50px;
-  margin-right: 80px;
 }
 
 .hello h1 {
+  border-top: 2px solid  lawngreen;
+  border-bottom: 2px solid  lawngreen;
   font-family: 'DM Serif Display', serif;
-  font-size: 8em;
+  font-size: 3em;
   padding: 12px;
   margin-top: 25px;
-  margin-left: 15px;
   letter-spacing: 3px;
+  line-height: 1.5;
+  text-align: center;
 }
 /* ABOUT */
 
@@ -63,6 +66,11 @@ html .body {
   margin-right: 60px;
 }
 
+.about-img:hover {
+  filter: none;
+  transition: 90ms;
+}
+
 .about-img {
   float: left;
   position: relative;
@@ -70,6 +78,7 @@ html .body {
   height: auto;
   z-index: 3;
   margin-left: 50px;
+  filter: grayscale(100%);
 }
 
 .about-text {
