@@ -37,21 +37,18 @@ html .body {
 /* HELLO */
 
 .hello {
-  width: 50%;
-  margin: auto;
+  grid-template-columns: 50% 50%;
   margin-top: 50px;
+  margin-right: 80px;
 }
 
 .hello h1 {
-  border-top: 2px solid  lawngreen;
-  border-bottom: 2px solid  lawngreen;
   font-family: 'DM Serif Display', serif;
-  font-size: 3em;
+  font-size: 8em;
   padding: 12px;
   margin-top: 25px;
+  margin-left: 15px;
   letter-spacing: 3px;
-  line-height: 1.5;
-  text-align: center;
 }
 /* ABOUT */
 
@@ -68,7 +65,6 @@ html .body {
 
 .about-img:hover {
   filter: none;
-  transition: 90ms;
 }
 
 .about-img {
