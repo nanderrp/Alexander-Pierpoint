@@ -148,11 +148,13 @@ html .body {
 
 .projects .funthings {
   padding: 3em;
+  text-align: center;
 }
 
 .funthings .card {
-  margin: 20px;
+  margin: 0 auto;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
 
 }
 
@@ -160,6 +162,11 @@ html .body {
   width: 100%;
   height: auto;
   margin-top: 10px;
+}
+
+.funthings .card-body {
+  width: 500px;
+  margin-bottom: 40px;
 }
 
 /* CONTACT */
