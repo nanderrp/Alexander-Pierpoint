@@ -1,4 +1,7 @@
 /* BODY & NAV */
+html {
+  width: 100%;
+}
 
 html .body {
   width: 100%;
@@ -21,6 +24,7 @@ html .body {
 }
 
 .navbar-toggler-icon {
+  margin: auto;
   width: 50px !important;
   height: 50px !important;
 }
@@ -44,7 +48,7 @@ html .body {
 
 .hello h1 {
   font-family: 'DM Serif Display', serif;
-  font-size: 8em;
+  font-size: 10.5vw;
   padding: 12px;
   margin-top: 25px;
   margin-left: 15px;
@@ -122,14 +126,34 @@ html .body {
     margin-bottom: 60px !important;
   }
   .about-text {
-    width: 600px !important;
+    width: 500px !important;
     padding: 5px !important;
-    margin-left: 60px !important;
+    margin: 0 auto !important;
+    margin-bottom: 60px;
   }
 
   .about-text p {
     text-align: center;
     font-size: 25pt;
+  }
+
+  @media screen and (max-width: 400px){
+    .hello h1 {
+      font-size: 100px !important;
+    }
+
+    .about-text {
+      display: block;
+      margin-left: 50px !important;
+    }
+
+    .about-text{
+      margin-bottom: 100px !important;
+    }
+
+    .projects {
+      margin-top: 300px !important;
+    }
   }
 }
 
